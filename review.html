@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+				content="Home">
+	<meta name="keywords"
+				content="">
+	<link rel="shortcut icon"
+				href="img/favicon.webp"
+				type="image/webp">
+	<link rel="shortcut icon"
+				href="img/favicon.png"
+				type="image/x-icon">
+	<link rel="stylesheet"
+				href="css/libs.min.css">
+	<link rel="stylesheet"
+				href="css/style.css">
+	<title>Home</title>
+</head>
+<body>
+	<div class="header">
+		<div class="container flexbox">
+    <button type="button" class="hamburger hamburger_spin" aria-expanded="false" aria-controls="menu__list">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <a href="index.html" class="logo"><img src="img/logo.svg" alt="logo" width="117" height="26"></a>
+    <nav class="navigation navigation_header flexbox">
+    	<ul class="menu flexbox">
+            <li class="menu__item"><a href="about.html" class="menu-link">Про нас</a></li>
+            <li class="menu__item"><a href="review.html" class="menu-link">Огляд</a></li>
+            <li class="menu__item flexbox arr">
+                <a href="category.html" class="menu-link">Категорія</a>
+                <svg width="10" height="7" class="svg-menu">
+                    <use xlink:href="img/sprite.svg#sprite--menu"></use>
+                </svg>
+                <div class="downmenu flexbox">
+                    <div class="downmenu-container flexbox">
+                        <ul class="submenu">
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="post.html" class="submenu-link">Товари для дому</a>
+                            </li>
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="post.html" class="submenu-link">Внутрішній ремонт</a>
+                            </li>
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="post.html" class="submenu-link">Екологічні покращення</a>
+                            </li>
+                        </ul>
+
+                        <ul class="submenu">
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="post.html" class="submenu-link">Товари для дому</a>
+                            </li>
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="post.html" class="submenu-link">Внутрішній ремонт</a>
+                            </li>
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="post.html" class="submenu-link">Екстер'єри</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="menu__item"><a href="author.html" class="menu-link">Автор</a></li>
+            <li class="menu__item"><a href="contact.html" class="menu-link">Контакти</a></li>
+            <li class="menu__item flexbox arr">
+                <a href="#" class="menu-link">Більше</a>
+                <svg width="10" height="7" class="svg-menu">
+                    <use xlink:href="img/sprite.svg#sprite--menu"></use>
+                </svg>
+                <div class="downmenu">
+                    <div class="downmenu-container">
+                        <ul class="submenu">
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="error.html" class="submenu-link">Ошибка</a>
+                            </li>
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="result.html" class="submenu-link">Результат</a>
+                            </li>
+                            <li class="submenu__item flexbox">
+                                <svg width="8" height="10" class="svg-link">
+                                    <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                                </svg>
+                                <a href="tech.html" class="submenu-link">Технічна</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="menu__item">
+                <button type="button" aria-expanded="false" class="subscribe-btn menu-link flexbox">
+                    <img src="img/letter.svg" alt="img" width="15" height="11">
+                    Підписатися
+                </button>
+            </li>
+        </ul>
+
+        <div class="lang flexbox">
+            <a href="#" class="lang-link active">UA</a>
+            <a class="lang-link">RU</a>
+        </div>
+        <div class="search-header search">
+            <button type="button" aria-expanded="false" class="search-btn-header search-btn"></button>
+            <form action="#" method="get" class="search-form">
+                <input type="search" name="search" placeholder="Знайти...">
+                <button type="button" class="search-submit">
+                    <svg width="16" height="16">
+                        <use xlink:href="img/sprite.svg#sprite--search"></use>
+                    </svg> 
+                </button>
+            </form>
+        </div>
+        
+        
+    </nav>
+    <button type="button" aria-expanded="false" class="search-btn search-btn-mob"></button>
+</div>
+
+	</div>
+	   <nav class="navigation navigation_mob scroll" id="menu__list">
+	<ul class="menu">
+        <li class="menu__item"><a href="about.html" class="menu-link">Про нас</a></li>
+        <li class="menu__item"><a href="review.html" class="menu-link">Огляд</a></li>
+        <li class="menu__item flexbox arr">
+            <a href="category.html" class="menu-link">Категорія</a>
+            <button type="button" class="downmenu-open" aria-expanded="false">
+                <svg width="14" height="9" class="svg-menu">
+                    <use xlink:href="img/sprite.svg#sprite--menu"></use>
+                </svg>
+            </button>
+            <div class="downmenu">
+                <button type="button" class="downmenu-close btn-close" aria-expanded="false">
+                    <svg width="14" height="9" class="svg-menu">
+                    	<use xlink:href="img/sprite.svg#sprite--menu"></use>
+                	</svg>
+                    <span>повернутися</span>
+                </button>
+                <ul class="submenu">
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="post.html" class="submenu-link">Товари для дому</a>
+                    </li>
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="post.html" class="submenu-link">Внутрішній ремонт</a>
+                    </li>
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="post.html" class="submenu-link">Екологічні покращення</a>
+                    </li>
+                </ul>
+
+                <ul class="submenu">
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="post.html" class="submenu-link">Товари для дому</a>
+                    </li>
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="post.html" class="submenu-link">Внутрішній ремонт</a>
+                    </li>
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="post.html" class="submenu-link">Екстер'єри</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="menu__item"><a href="author.html" class="menu-link">Автор</a></li>
+        <li class="menu__item"><a href="contact.html" class="menu-link">Контакти</a></li>
+        <li class="menu__item flexbox arr">
+            <a href="#" class="menu-link">Більше</a>
+            <button type="button" class="downmenu-open" aria-expanded="false">
+                <svg width="14" height="9" class="svg-menu">
+                    <use xlink:href="img/sprite.svg#sprite--menu"></use>
+                </svg>
+            </button>
+            <div class="downmenu">
+                <button type="button" class="downmenu-close btn-close" aria-expanded="false">
+                    <svg width="14" height="9" class="svg-menu">
+                    	<use xlink:href="img/sprite.svg#sprite--menu"></use>
+                	</svg>
+                    <span>повернутися</span>
+                </button>
+                <ul class="submenu">
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="error.html" class="submenu-link">Ошибка</a>
+                    </li>
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="result.html" class="submenu-link">Результат</a>
+                    </li>
+                    <li class="submenu__item flexbox">
+                        <svg width="8" height="10" class="svg-link">
+                            <use xlink:href="img/sprite.svg#sprite--arr"></use>
+                        </svg>
+                        <a href="tech.html" class="submenu-link">Технічна</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="menu__item flexbox">
+            <button type="button" aria-expanded="false" class="subscribe-btn menu-link flexbox">
+                <img src="img/letter.svg" alt="img" width="15" height="11">
+                Підписатися
+            </button>
+        </li>
+    </ul>
+
+    <div class="lang flexbox">
+        <a href="#" class="lang-link active">UA</a>
+        <a class="lang-link">RU</a>
+    </div>
+</nav>
+     <div class="mob-search search">
+	<form action="#" method="get" class="search-form">
+		<div class="group">
+			<input type="search" name="search" placeholder="Знайти...">
+            <svg width="16" height="16">
+                <use xlink:href="img/sprite.svg#sprite--search"></use>
+            </svg> 
+		</div>
+        <div class="search-block">
+            <div class="search-container scroll">
+                <ul class="search-list">
+                    <li><a href="#">Як правильно садити квіти?</a></li>
+                    <li><a href="#">Як правильно обробляти ділянку від шкідників?</a></li>
+                    <li><a href="#">Як правильно шпаклювати стіну?</a></li>
+                    <li><a href="#">Як правильно зробити ремонт у квартирі? Головні етапи підготовки та планування ремонту</a></li>
+                    <li><a href="#">Як правильно садити квіти?</a></li>
+                    <li><a href="#">Як правильно обробляти ділянку від шкідників?</a></li>
+                    <li><a href="#">Як правильно шпаклювати стіну?</a></li>
+                    <li><a href="#">Як правильно садити квіти?</a></li>
+                    <li><a href="#">Як правильно обробляти ділянку від шкідників?</a></li>
+                    <li><a href="#">Як правильно шпаклювати стіну?</a></li>
+                    <li><a href="#">Як правильно зробити ремонт у квартирі? Головні етапи підготовки та планування ремонту</a></li>
+                    <li><a href="#">Як правильно садити квіти?</a></li>
+                    <li><a href="#">Як правильно обробляти ділянку від шкідників?</a></li>
+                    <li><a href="#">Як правильно шпаклювати стіну?</a></li>
+                </ul>
+            </div>
+        </div>
+    </form>
+	<div class="lang flexbox">
+        <a href="#" class="lang-link active">UA</a>
+        <a class="lang-link">RU</a>
+    </div>
+</div>
+    <div class="overly"></div>
+  	<main>
+      <div class="container">
+        <ul class="breadcrumbs flexbox">
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="category.html">Категорія</a></li>
+          <li>Який холодильник краще обрати</li>
+        </ul>
+      </div>
+  		<div class="section">
+        <div class="container">
+          <div class="content flexbox">
+            <article class="post">
+              <h1 class="heading-line"><span>ЯКИЙ ХОЛОДИЛЬНИК КРАЩЕ ОБРАТИ?</span></h1>
+              <div class="post-heading flexbox">
+                <div class="post-heading__item flexbox">
+                  <picture>
+                    <source type="image/webp" srcset="img/kristian@2x.webp" />
+                    <img src="img/kristian@2x.jpg" alt="img" width="32" height="32">
+                  </picture>
+                  <div class="post-heading-info">
+                    <div class="post-heading-name">Крістіан Майерс</div>
+                    <div class="post-heading-position">Автор</div>
+                  </div>
+                </div>
+                <div class="post-heading__item flexbox">
+                  <picture>
+                    <source type="image/webp" srcset="img/kristian@2x.webp" />
+                    <img src="img/kristian@2x.jpg" alt="img" width="32" height="32">
+                  </picture>
+                  <div class="post-heading-info">
+                    <div class="post-heading-name">Світлана Карпенко</div>
+                    <div class="post-heading-verification">Перевірила</div>
+                  </div>
+                </div>
+                <div class="post-heading__item">
+                  <div class="post-heading-info">
+                    <time class="post-heading-time" datetime="2022-06-21">Оновлена: 21 червня, 2022</time>
+                    <div class="post-heading-views">Переглядів: 856</div>
+                  </div>
+                </div>    
+              </div>
+
+              <div class="preview">
+                <p>Світ швидко змінюється, але деякі речі залишаються стабільними. І необхідність наявності холодильника – один із таких випадків.</p>
+              </div>
+
+              <picture>
+                <source type="image/webp" srcset="img/kitchen@2x.webp">
+                <img src="img/kitchen@2x.jpg" alt="img" width="800" height="450">
+              </picture>
+
+              <div class="disclaimer">
+                <p>Ми вибрали найкращі бюджетні холодильники від перевірених брендів та склали докладний рейтинг моделей, які можна вважати універсальними. Хороша техніка необов'язково має бути дорогою – саме такі моделі ми для вас підібрали, не дорожчі за 10 000 грн і з усіма необхідними функціями та можливостями. У білому та сріблястому корпусі, імпортні та з країн СНД: обирайте за своїми перевагами та бюджетом!</p>
+              </div>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.  </p>
+              <p>Відкриває ТОП бюджетних холодильників модель від легендарного білоруського виробника «Атлант». Ці холодильники часто купують для людей похилого віку – вони виконані у більш звичному дизайні, дуже прості в управлінні та недорого коштують. Також це хороший варіант для дачі.</p>
+              <p>ATLANT ХМ-4012-500 відноситься до кліматичного класу SN, а це означає, що він може стабільно працювати за температури навколишнього середовища в діапазоні від +10°C до +32°C градусів.</p>
+
+              <div class="tablecontent">
+                <button type="button" aria-expanded="false" class="heading">Зміст</button>
+
+                <ol class="tablecontent-list">
+                  <li class="tablecontent__item">
+                    <a href="#" class="tablecontent-link">Який холодильник краще: LG чи SAMSUNG?</a>
+                    <ul>
+                      <li><a href="#">Двокамерний холодильник ATLANT</a></li>
+                      <li><a href="#">Двокамерний холодильник ATLANT ХМ-4012</a></li>
+                      <li><a href="#">Двокамерний холодильник ATLANT ХМ-4012-500</a></li>
+                      <li><a href="#">Двокамерний холодильник ATLANT ХМ</a></li>
+                    </ul>
+                  </li>
+                  <li class="tablecontent__item">
+                    <a href="#" class="tablecontent-link">Як вибрати недорогий холодильник?</a>
+                    <ul>
+                      <li><a href="#">Двокамерний холодильник ATLANT</a></li>
+                      <li><a href="#">Двокамерний холодильник ATLANT ХМ-4012</a></li>
+                      <li><a href="#">Двокамерний холодильник</a></li>
+                    </ul>
+                  </li>
+                  <li class="tablecontent__item">
+                    <a href="#" class="tablecontent-link">Відгуки про бюджетні холодильники</a>
+                    <ul>
+                      <li><a href="#">Двокамерний холодильник ATLANT ХМ-4012</a></li>
+                      <li><a href="#">Двокамерний холодильник ATLANT ХМ-40</a></li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+
+              <h2 class="heading-line"><span>ЯКИЙ ХОЛОДИЛЬНИК КРАЩЕ ОБРАТИ?</span></h2>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.   </p>
+              <p>Відкриває ТОП бюджетних холодильників модель від легендарного білоруського виробника «Атлант». Ці холодильники часто купують для людей похилого віку – вони виконані у більш звичному дизайні, дуже прості в управлінні та недорого коштують. Також це хороший варіант для дачі.</p>
+              <p>ATLANT ХМ-4012-500 відноситься до кліматичного класу SN, а це означає, що він може стабільно працювати за температури навколишнього середовища в діапазоні від +10°C до +32°C градусів.</p>
+
+              <ol>
+                <li>ATLANT ХМ-4012-500</li>
+                <li>ATLANT ХМ-40</li>
+                <li>ATLANT ХМ-4012-5223</li>
+                <li>ATLANT ХМ-4012-50</li>
+              </ol>
+
+              <div class="table_scroll scroll scroll_horizontal">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Параметри</th>
+                      <th>ATLANT ХМ-4012-500</th>
+                      <th>ATLANT ХМ-4012-500</th>
+                      <th>ATLANT ХМ-4012-500</th>
+                      <th>ATLANT ХМ-4012-500</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Тип холодильника</td>
+                      <td>Двокамерний</td>
+                      <td>
+                        <ul>
+                          <li><a href="#">Рівень шуму</a></li>
+                          <li><a href="#">Рівень шуму</a></li>
+                          <li><a href="#">Рівень шуму</a></li>
+                          <li><a href="#">Рівень шуму</a></li>
+                          <li><a href="#">Рівень шуму</a></li>
+                        </ul>
+                      </td>
+                      <td>Двокамерний</td>
+                      <td>Двокамерний</td>
+                    </tr>
+                    <tr>
+                      <td>Тип холодильника</td>
+                      <td>320 л</td>
+                      <td>320 л</td>
+                      <td>320 л</td>
+                      <td>320 л</td>
+                    </tr>
+                    <tr>
+                      <td>Рівень шуму</td>
+                      <td>
+                        <ol>
+                          <li>Рівень шуму</li>
+                          <li><a href="#">Рівень шуму</a></li>
+                          <li>Рівень шуму</li>
+                          <li>Рівень шуму</li>
+                          <li>Рівень шуму</li>
+                        </ol>
+                      </td>
+                      <td><p>Двокамерний</p></td>
+                      <td><p><b>Двокамерний</b></p></td>
+                      <td><p>Двокамерний</p></td>
+                    </tr>
+                    <tr>
+                      <td>Корисний об'єм холодильної камери</td>
+                      <td><a href="#">320 л</a></td>
+                      <td><a href="#">320 л</a></td>
+                      <td><a href="#">320 л</a></td>
+                      <td><a href="#">320 л</a></td>
+                    </tr>
+                    <tr>
+                      <td>Тип холодильника</td>
+                      <td>
+                        <picture>
+                          <source type="image/webp" srcset="img/refrigerator.webp" />
+                          <img src="img/refrigerator.jpg" alt="img">
+                        </picture>
+                      </td>
+                      <td>
+                        <picture>
+                          <source type="image/webp" srcset="img/refrigerator.webp" />
+                          <img src="img/refrigerator.jpg" alt="img">
+                        </picture>
+                      </td>
+                      <td>
+                        <picture>
+                          <source type="image/webp" srcset="img/refrigerator.webp" />
+                          <img src="img/refrigerator.jpg" alt="img">
+                        </picture>
+                      </td>
+                      <td>
+                        <picture>
+                          <source type="image/webp" srcset="img/refrigerator.webp" />
+                          <img src="img/refrigerator.jpg" alt="img">
+                        </picture>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Корисний об'єм холодильної камери</td>
+                      <td>
+                        <ul>
+                          <li>Рівень шуму</li>
+                          <li>Рівень шуму</li>
+                          <li>Рівень шуму</li>
+                          <li>Рівень шуму</li>
+                          <li>Рівень шуму</li>
+                        </ul>
+                      </td>
+                      <td>320 л</td>
+                      <td>320 л</td>
+                      <td>320 л</td>
+                    </tr>
+                    <tr>
+                      <td>Корисний об'єм холодильної камери</td>
+                      <td>320 л</td>
+                      <td>320 л</td>
+                      <td>320 л</td>
+                      <td>320 л</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="view">
+                <div class="view_top flexbox">
+                  <div class="view__item view-img">
+                    <div class="mark">Бюджетний варіант</div>
+                    <picture>
+                      <source type="image/webp" srcset="img/view@2x.webp" />
+                      <img src="img/view@2x.png" alt="img" width="406" height="395">
+                    </picture>  
+                  </div>
+
+                  <div class="view__item view-info">
+                    <h3 class="view-heading">Аерогриль Cosori Pro</h3>
+                    <div class="descr">Найкраща бюджетна аерофритюрниця у формі стручка</div>
+                    <div class="text">
+                      <p>Ця аерофритюрниця була найкращою з наших тестів за ціною менше 100 доларів. Він має деякі конструктивні особливості моделі Philips, але готує не так рівномірно, а налаштування не такі точні.</p>
+                    </div>
+                    <div class="btn-block">
+                      <div class="btn btn_light btn_resize">дізнатися актуальну ціну на rozetka</div>
+                      <div class="btn btn_gray btn_resize">дізнатися ціну на comfy</div>
+                      <div class="btn btn_gray btn_resize">дізнатися ціну на shop-name</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="view-side side flexbox">
+                  <div class="side__item">
+                    <div class="side-heading">Плюси:</div>
+                    <ul class="list-pluse">
+                      <li>Місткий барабан 8 кг</li>
+                      <li>Висока швидкість віджимання висока швидкість віджимання</li>
+                      <li>Європейська збірка</li>
+                      <li>Сушіння</li>
+                    </ul>
+                  </div>
+
+                  <div class="side__item">
+                    <div class="side-heading">Мінуси:</div>
+                    <ul class="list-minus">
+                      <li>Великогабаритна</li>
+                      <li>Великогабаритна</li>
+                      <li>Великогабаритна</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="text">
+                  <p>Вам може знадобитися невелика фритюрниця у формі капсули, якщо у вас мало місць на столі або якщо ви плануєте готувати лише одну або дві порції їжі за раз. Philips Premium Airfryer HD9741/96 — найкраща фритюрниця у формі капсули, яку ми протестували. У нього відносно невеликі габарити, він прост у використанні і готовий їжу більш рівномірно, ніж аналогічні моделі. Ви не можете відрегулювати або вимкнути його потужний конвекційний вентилятор, що означає, що він не підходить для випічки, і ви не можете використовувати його для приготування тостів.  </p>
+                  <p>Крім корзин для фритюрниці, всі аксесуари продаються окремо. Ми думаємо, що багато людей, ймовірно, будуть щасливіші з більшою потужністю приготування та універсальністю тостера з конвекцією.</p>
+                </div>
+              </div>
+
+              <div class="view">
+                <div class="view_top flexbox">
+                  <div class="view__item view-img">
+                    <div class="mark">Бюджетний варіант</div>
+                    <picture>
+                      <source type="image/webp" srcset="img/view@2x.webp" />
+                      <img src="img/view@2x.jpg" alt="img" width="406" height="395">
+                    </picture>  
+                  </div>
+
+                  <div class="view__item view-info">
+                    <h3 class="view-heading">Аерогриль Cosori Pro</h3>
+                    <div class="descr">Найкраща бюджетна аерофритюрниця у формі стручка</div>
+                    <div class="text">
+                      <p>Ця аерофритюрниця була найкращою з наших тестів за ціною менше 100 доларів. Він має деякі конструктивні особливості моделі Philips, але готує не так рівномірно, а налаштування не такі точні.</p>
+                    </div>
+                    <div class="btn-block">
+                      <div class="btn btn_light btn_resize">дізнатися ціну на rozetka</div>
+                      <div class="btn btn_gray btn_resize">дізнатися ціну на comfy</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="view-side side flexbox">
+                  <div class="side__item">
+                    <div class="side-heading">Плюси:</div>
+                    <ul class="list-pluse">
+                      <li>Місткий барабан 8 кг</li>
+                      <li>Висока швидкість віджимання висока швидкість віджимання</li>
+                      <li>Європейська збірка</li>
+                      <li>Сушіння</li>
+                    </ul>
+                  </div>
+
+                  <div class="side__item">
+                    <div class="side-heading">Мінуси:</div>
+                    <ul class="list-minus">
+                      <li>Великогабаритна</li>
+                      <li>Великогабаритна</li>
+                      <li>Великогабаритна</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="text">
+                  <p>Вам може знадобитися невелика фритюрниця у формі капсули, якщо у вас мало місць на столі або якщо ви плануєте готувати лише одну або дві порції їжі за раз. Philips Premium Airfryer HD9741/96 — найкраща фритюрниця у формі капсули, яку ми протестували. У нього відносно невеликі габарити, він прост у використанні і готовий їжу більш рівномірно, ніж аналогічні моделі. Ви не можете відрегулювати або вимкнути його потужний конвекційний вентилятор, що означає, що він не підходить для випічки, і ви не можете використовувати його для приготування тостів.  </p>
+                  <p>Крім корзин для фритюрниці, всі аксесуари продаються окремо. Ми думаємо, що багато людей, ймовірно, будуть щасливіші з більшою потужністю приготування та універсальністю тостера з конвекцією.</p>
+
+                  <ol>
+                    <li>Двокамерний холодильник ATLANT ХМ-4012-500</li>
+                    <li>Двокамерний холодильник ATLANT ХМ-4012-500</li>
+                    <li>Двокамерний холодильник ATLANT ХМ-4012-500</li>
+                    <li>Двокамерний холодильник ATLANT ХМ-4012-500</li>
+                  </ol>
+                </div>
+              </div>
+
+              <p>Відкриває <b>ТОП бюджетних холодильників</b> модель від легендарного білоруського виробника «Атлант». Ці холодильники часто купують для людей похилого віку – вони виконані у більш звичному дизайні, дуже прості в управлінні та недорого коштують. Також це хороший варіант для дачі.</p>
+              <p><strong>ATLANT ХМ-4012-500</strong> відноситься до кліматичного класу SN, а це означає, що він може стабільно працювати за температури навколишнього середовища в діапазоні від +10°C до +32°C градусів.</p>
+
+              <blockquote>
+                <p>Якби телевізор і холодильник не знаходилися в різних приміщеннях, деякі з нас загинули б від відсутності фізичного навантаження.</p>
+              </blockquote>
+
+              <h3 class="heading-line"><span>ЯКИЙ ХОЛОДИЛЬНИК КРАЩЕ ОБРАТИ?</span></h3>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.  </p>
+              <p>Відкриває ТОП бюджетних холодильників модель від легендарного білоруського виробника «Атлант». Ці холодильники часто купують для людей похилого віку – вони виконані у більш звичному дизайні, дуже прості в управлінні та недорого коштують. Також це хороший варіант для дачі.</p>
+
+              <picture>
+                <source type="image/webp" srcset="img/kitchen@2x.webp">
+                <img src="img/kitchen@2x.jpg" alt="img" width="800" height="450">
+              </picture>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.</p>
+
+
+              <picture>
+                <source type="image/webp" srcset="img/kitchen@2x.webp">
+                <img src="img/kitchen@2x.jpg" alt="img" width="360" height="202" class="float_left">
+              </picture>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.  </p>
+              <p>Відкриває ТОП бюджетних холодильників модель Усі недорогі холодильники чимось відрізняються один від  одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.</p>
+
+              <picture>
+                <source type="image/webp" srcset="img/kitchen@2x.webp">
+                <img src="img/kitchen@2x.jpg" alt="img" width="360" height="202" class="float_right">
+              </picture>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.  </p>
+              <p>Відкриває ТОП бюджетних холодильників модель Усі недорогі холодильники чимось відрізняються один від  одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.</p>
+
+              <h4 class="heading-line"><span>Часті питання про пральні машини</span></h4>
+
+              <p>Порівняти пральні машини буде ще легше, якщо знайти відповіді на найпопулярніші та каверзні питання потенційних покупців.</p>
+
+              <div class="faq">
+                <div class="faq__item">
+                  <button type="button" class="faq-heading" aria-expanded="false">Яка пральна машина найнадійніша?</button>
+                  <div class="faq-text">
+                    <p><a href="#">Машинки з верхнім завантаженням</a> визнані більш надійними завдяки подвійному кріпленню барабана. У передніх моделях він закріплений тільки з одного боку, у вертикальній з двох. Це не тільки позначається на довговічності приладу, а й забезпечує тиху роботу. Звичайно ж, з ладу у вертикальній машинці може вийти будь-який інший вузол, але з позиції надійності кріплення барабана багато майстрів голосують на користь «вертикалок». </p>
+                  </div>
+                </div>
+
+                <div class="faq__item">
+                  <button type="button" class="faq-heading" aria-expanded="false">Яка пральна машина краща — з вертикальним чи горизонтальним завантаженням?</button>
+                  <div class="faq-text">
+                    <p><a href="#">Машинки з верхнім завантаженням</a> визнані більш надійними завдяки подвійному кріпленню барабана. У передніх моделях він закріплений тільки з одного боку, у вертикальній з двох. Це не тільки позначається на довговічності приладу, а й забезпечує тиху роботу. Звичайно ж, з ладу у вертикальній машинці може вийти будь-який інший вузол, але з позиції надійності кріплення барабана багато майстрів голосують на користь «вертикалок». </p>
+                  </div>
+                </div>
+
+                <div class="faq__item">
+                  <button type="button" class="faq-heading" aria-expanded="false">Яка пральна машина найнадійніша?</button>
+                  <div class="faq-text">
+                    <p><a href="#">Машинки з верхнім завантаженням</a> визнані більш надійними завдяки подвійному кріпленню барабана. У передніх моделях він закріплений тільки з одного боку, у вертикальній з двох. Це не тільки позначається на довговічності приладу, а й забезпечує тиху роботу. Звичайно ж, з ладу у вертикальній машинці може вийти будь-який інший вузол, але з позиції надійності кріплення барабана багато майстрів голосують на користь «вертикалок». </p>
+                  </div>
+                </div>
+
+                <div class="faq__item">
+                  <button type="button" class="faq-heading" aria-expanded="false">Яка пральна машина краща — з вертикальним чи горизонтальним завантаженням?</button>
+                  <div class="faq-text">
+                    <p><a href="#">Машинки з верхнім завантаженням</a> визнані більш надійними завдяки подвійному кріпленню барабана. У передніх моделях він закріплений тільки з одного боку, у вертикальній з двох. Це не тільки позначається на довговічності приладу, а й забезпечує тиху роботу. Звичайно ж, з ладу у вертикальній машинці може вийти будь-який інший вузол, але з позиції надійності кріплення барабана багато майстрів голосують на користь «вертикалок». </p>
+                  </div>
+                </div>
+
+                <div class="faq__item">
+                  <button type="button" class="faq-heading" aria-expanded="false">Яка пральна машина найнадійніша?</button>
+                  <div class="faq-text">
+                    <p>Умовно всі пральні машини можна поділити на 3 цінові сегменти:</p>
+
+                    <ol>
+                      <li>Бюджетні. Це машинки вартістю 4700-7000 грн. Зазвичай, такі машини пропонують маловідомі бренди. У таких моделях використовують низькоякісні матеріали, тому надійність і термін служби під великим питанням.</li>
+                      <li>Середня вартість. Від 8000 до 15000 грн. До цієї категорії входить більшість популярних брендів.</li>
+                      <li>Преміум. Люкс-сегмент занадто широкий у ціновому діапазоні: це може бути і 19 000, і 30 000, і 50 000, і навіть 100 000 грн. і вище. Складання преміум-моделей — вивірений процес, наприклад, у Miele барабани перевіряють найтоншою панчохою, щоб виявити можливі дефекти.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+
+              <h5 class="heading-line"><span>Часті питання про пральні машини</span></h5>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.</p>
+
+              <figure>
+                <picture>
+                  <source type="image/webp" srcset="img/kitchen@2x.webp">
+                  <img src="img/kitchen@2x.jpg" alt="img" width="800" height="450">
+                </picture>
+                <figcaption>Пральна машина з сушінням ELECTROLUX EWW 1685 WU</figcaption>
+              </figure>
+
+              <div class="btn-block">
+                <a href="#" class="btn btn_light btn_resize">дізнатися ціну</a>
+              </div>
+
+              <div class="video">
+                <iframe class="player" src="https://www.youtube.com/embed/cfFxRp-jJFA" title="Cockatoo Acts Like Dog and Barks at Delivery Driver || ViralHog"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <button type="button" aria-expanded="false" class="btn-video">
+                  <svg width="22" height="25">
+                    <use xlink:href="img/sprite.svg#sprite--play"></use>
+                  </svg>
+                </button>
+              </div>
+
+              <h6 class="heading-line"><span>Часті питання про пральні машини</span></h6>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.  </p>
+              <p>Відкриває ТОП бюджетних холодильників модель від легендарного білоруського виробника «Атлант». Ці холодильники часто купують для людей похилого віку – вони виконані у більш звичному дизайні, дуже прості в управлінні та недорого коштують. Також це хороший варіант для дачі.</p>
+
+              <div class="side flexbox">
+                <div class="side__item">
+                  <div class="side-heading">Плюси:</div>
+                  <ul class="list-pluse">
+                    <li>Місткий барабан 8 кг</li>
+                    <li>Висока швидкість віджимання висока швидкість віджимання</li>
+                    <li>Європейська збірка</li>
+                    <li>Сушіння</li>
+                  </ul>
+                </div>
+
+                <div class="side__item">
+                  <div class="side-heading">Мінуси:</div>
+                  <ul class="list-minus">
+                    <li>Великогабаритна</li>
+                    <li>Великогабаритна</li>
+                    <li>Великогабаритна</li>
+                  </ul>
+                </div>
+              </div>
+
+              <p>Усі недорогі холодильники чимось відрізняються один від одного. Ми створили ієрархію, де кожна модель вигідно відрізняється від інших. Вам залишилося тільки зіставити параметри, дизайн, розмір корпусу, місткість та інше, щоб вибрати свій відповідний варіант.</p>
+
+              <div class="reads">
+                <div class="reads-caption">Також читайте:</div>
+                <div class="reads-block flexbox">
+                  <a href="post.html" class="reads__item flexbox">
+                    <picture>
+                      <source type="image/webp" srcset="img/room4@2x.webp">
+                      <img src="img/room4@2x.jpg" alt="img" width="94" height="60">
+                    </picture>
+                    <div class="reads-heading"><span>який холодильник краще: LG чи SAMSUNG?</span></div>
+                  </a>
+                  <a href="post.html" class="reads__item flexbox">
+                    <picture>
+                      <source type="image/webp" srcset="img/room4@2x.webp">
+                      <img src="img/room4@2x.jpg" alt="img" width="94" height="60">
+                    </picture>
+                    <div class="reads-heading"><span>який холодильник краще: LG чи SAMSUNG?</span></div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="order flexbox">
+                <div class="order__item">
+                  <div class="h4 heading-line"><span>послуги для вашого дому</span></div>
+                  <div class="text">
+                    <p>Трапляється так, що в нашому житті іноді необхідно зробити дрібний побутовий ремонт, але немає майстра.</p>
+                  </div>
+                  <a href="contact.html" class="btn btn_light">замовити</a>
+                </div>
+                <div class="order__item order-block">
+                  <div class="order-block__item"><span>Якісно</span></div>
+                  <div class="order-block__item"><span>Швидко</span></div>
+                  <div class="order-block__item"><span>Доступно</span></div>
+                </div>
+              </div>
+
+              <div class="highlight">
+                <div class="highlight__item highlight-important">
+                  <div class="icon"></div>
+                  <p>Шум може виникати через неправильне встановлення приладу. Використовуйте рівень або антивібраційні килимки. Навіть хороша бюджетна пральна машина працюватиме з мінімальним шумом при правильній установці.</p>
+                </div>
+                <div class="highlight__item highlight-advice">
+                  <div class="icon"></div>
+                  <p>Вартість - суб'єктивний показник, якщо йдеться про клас пральних машин "ціна-якість". Виробники оцінюють техніку, виходячи з начинки і функціоналу, а користувач сам вирішує, чи варто платити за додаткові функції.</p>
+                </div>
+                <div class="highlight__item highlight-attention">
+                  <div class="icon"></div>
+                  <p>Вартість - суб'єктивний показник, якщо йдеться про клас пральних машин "ціна-якість". Виробники оцінюють техніку, виходячи з начинки і функціоналу, а користувач сам вирішує, чи варто платити за додаткові функції.</p>
+                </div>
+              </div>
+
+              <div class="consultation">
+                <div class="h4 heading-line"><span>послуги для вашого дому</span></div>
+                <div class="text">
+                  <p>Якщо у вас виникли додаткові питання, залиште нам ваш номер мобільного телефону, та ми обов’язково перетелефонуємо.</p>
+                </div>
+                <form action="#" method="post" class="consultation-form">
+                  <div class="formgroup flexbox">
+                    <div class="forminput">
+                      <input type="email" name="email" placeholder="E-mail" required="">
+                      <div class="icon icon-ok"></div>
+                      <div class="icon icon-not"></div>
+                    </div>
+
+                    <button type="submit" class="btn btn_light">відправити</button>
+                  </div>  
+                </form>
+
+                <picture>
+                  <source type="image/webp" srcset="img/man@2x.webp">
+                  <img src="img/man@2x.jpg" alt="img" width="231" height="282">
+                </picture>
+              </div>
+
+              <div class="source flexbox">
+                <div class="source-block">
+                  <button type="button" aria-expanded="false" class="source-heading flexbox">
+                    джерело інформації
+                    <span class="icon">
+                      <span class="one"></span>
+                      <span class="two"></span>
+                    </span>  
+                  </button>
+                  <ol>
+                    <li>До цієї категорії входить більшість.</li>
+                    <li>До цієї категорії входить більшість людей.</li>
+                    <li>До цієї категорії входить більшість популярних брендів. <sup><a href="#">[2]</a></sup></li>
+                    <li>До цієї категорії входить <a href="#">більшість популярних брендів.</a></li>
+                    <li>До цієї категорії входить більшість популярних.</li>
+                    <li>До цієї категорії входить більшість популярних брендів?</li>
+                  </ol>
+                </div>
+
+                <div class="source-soc flexbox">
+                  <p>Поділитися статтею:</p>
+                  <ul class="soc soc_green flexbox">
+                    <li class="soc__item">
+                      <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+                        <svg width="30" height="30">
+                          <use xlink:href="img/sprite.svg#sprite--telegram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="soc__item">
+                      <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+                        <svg width="30" height="30">
+                          <use xlink:href="img/sprite.svg#sprite--viber"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="soc__item">
+                      <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+                        <svg width="30" height="30">
+                          <use xlink:href="img/sprite.svg#sprite--facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="soc__item">
+                      <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+                        <svg width="30" height="30">
+                          <use xlink:href="img/sprite.svg#sprite--pinterest"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="like">
+                <span class="like-text like-title">Ця стаття була корисною для мене</span>
+                <button class="like-btn" type="button" aria-expanded="false">
+                  <svg width="36" height="32">
+                    <use xlink:href="img/sprite.svg#sprite--like-big"></use>
+                  </svg>
+                </button>
+                <span class="like-text like-like">3568 людей вподобали цю статтю</span>
+              </div>
+
+
+              <div class="writer">
+                <div class="writer-heading flexbox">
+                  <div class="writer-info flexbox">
+                    <picture>
+                      <source type="image/webp" srcset="img/kristian@2x.webp" />
+                      <img src="img/kristian@2x.jpg" alt="img" width="60" height="60">
+                    </picture>  
+                    <div class="writer-title">
+                      <a href="author.html" class="writer-name">Крістін Майерс</a>
+                      <div class="writer-position">Автор, Новий Дім</div>
+                    </div>
+                  </div>
+
+                  <ul class="soc soc_green flexbox">
+                    <li class="soc__item">
+                      <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+                        <svg width="30" height="30">
+                          <use xlink:href="img/sprite.svg#sprite--instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="soc__item">
+                      <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+                        <svg width="30" height="30">
+                          <use xlink:href="img/sprite.svg#sprite--twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="soc__item">
+                      <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+                        <svg width="30" height="30">
+                          <use xlink:href="img/sprite.svg#sprite--facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="text">
+                  <p>Крістін Майерс — відома журналістка, продюсер і головний редакторНового Дому. До того як приєднатися до цього проєкту, Крістін була старшим автором Yahoo Finance і ведучою Yahoo Finance Live. Вона щодня вела програму Yahoo Finance Live і була одним із творців і ведучої щотижневої програми «Час змін», яка досліджує расу, різноманіття та участь у світі бізнесу, фінансів і політики.</p>
+                </div>
+              </div>
+
+            </article>
+
+            <aside class="aside">
+              <div class="aside-block writer">
+  <div class="writer-info flexbox">
+    <picture>
+      <source type="image/webp" srcset="img/kristian@2x.webp" />
+      <img src="img/kristian@2x.jpg" alt="img" width="60" height="60">
+    </picture>  
+    <div class="writer-title">
+      <div class="writer-name">Крістін Майерс</div>
+      <div class="writer-position">Автор, Новий Дім</div>
+    </div>
+  </div>
+  
+  <div class="text">
+    <p>Маркетолог і автор контенту в Новий Дім. Захоплений SEO, авіацією, ароматами, суші та тако.</p>
+  </div>
+
+  <div class="soc-block">
+    <div class="soc-title">Поділитися статтею:</div>
+    <ul class="soc soc_green flexbox">
+      <li class="soc__item">
+        <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+          <svg width="30" height="30">
+            <use xlink:href="img/sprite.svg#sprite--instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="soc__item">
+        <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+          <svg width="30" height="30">
+            <use xlink:href="img/sprite.svg#sprite--twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="soc__item">
+        <a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+          <svg width="30" height="30">
+            <use xlink:href="img/sprite.svg#sprite--facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+  <form action="#" method="post" class="subscribe-form">
+    <div class="heading">Підписатися на щотижневі оновлення</div>
+      <div class="formgroup">
+        <div class="forminput group">
+          <input type="email" name="email" placeholder="E-mail" required>
+          <div class="icon icon-ok"></div>
+          <div class="icon icon-not"></div>
+        </div>
+        <button type="submit" class="btn btn_light">підписатися</button>
+    </div>
+  </form>
+</div>
+
+<div class="aside-block contents">
+  <div class="contents-heading">Зміст</div>
+  <ul>
+    <li><a href="#">Який холодильник краще?</a></li>
+    <li><a href="#">Який холодильник краще: LG чи SAMSUNG?</a></li>
+    <li><a href="#">Який холодильник краще: LG чи SAMSUNG (допоможемо обрати)</a></li>
+    <li><a href="#">Який холодильник краще: LG чи SAMSUNG?</a></li>
+    <li><a href="#">Який холодильник краще?</a></li>
+    <li><a href="#">Який холодильник краще: LG чи SAMSUNG?</a></li>
+  </ul>
+</div>
+            </aside>
+          </div>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="summary summary-same">
+            <h5>Читати схожі статті:</h5>
+            <div class="summary-inner gridbox">
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/kitchen@2x.webp" />
+                    <img src="img/kitchen@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1який холодильник краще: LG чи SAMSUNG?</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room2@2x.webp" />
+                    <img src="img/room2@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room3@2x.webp" />
+                    <img src="img/room3@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні </span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room4@2x.webp" />
+                    <img src="img/room4@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room5@2x.webp" />
+                    <img src="img/room5@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room6@2x.webp" />
+                    <img src="img/room6@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room4@2x.webp" />
+                    <img src="img/room4@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room5@2x.webp" />
+                    <img src="img/room5@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room6@2x.webp" />
+                    <img src="img/room6@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room4@2x.webp" />
+                    <img src="img/room4@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room5@2x.webp" />
+                    <img src="img/room5@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room6@2x.webp" />
+                    <img src="img/room6@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room4@2x.webp" />
+                    <img src="img/room4@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room5@2x.webp" />
+                    <img src="img/room5@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+
+              <a href="post.html" class="summary__item">
+                <div class="summary-img">
+                  <picture>
+                    <source type="image/webp" srcset="img/room6@2x.webp" />
+                    <img src="img/room6@2x.jpg" alt="img" width="373" height="146">
+                  </picture>
+                </div>  
+                <div class="summary-title">Інтер’єр</div>
+                <div class="summary-body">
+                  <div class="heading"><span>1найкращі бюджетні ТЕлевізори ПО підсумкам 2021-2022 року</span></div>
+                  <div class="updating flexbox">
+                    <time class="updating-time updating__item" datetime="2022-05-15">15.05.2022</time>
+                    <div class="updating-view updating__item">456</div>
+                    <div class="updating-like updating__item">1200</div>
+                  </div> 
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  	</main>
+  	<footer class="footer">
+	<div class="container">
+		<div class="footer_top flexbox">
+			<div class="footer-info">
+				<a href="index.html" class="logo"><img src="img/logo-white.svg" alt="logo" width="144" height="32"></a>
+				<ul class="soc soc_white flexbox">
+					<li class="soc__item">
+						<a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+							<svg width="30" height="30">
+								<use xlink:href="img/sprite.svg#sprite--instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="soc__item">
+						<a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+							<svg width="30" height="30">
+								<use xlink:href="img/sprite.svg#sprite--twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="soc__item">
+						<a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+							<svg width="30" height="30">
+								<use xlink:href="img/sprite.svg#sprite--facebook"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="soc__item">
+						<a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+							<svg width="30" height="30">
+								<use xlink:href="img/sprite.svg#sprite--pinterest"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="soc__item">
+						<a href="#" class="soc-link" target="_blank" rel="nofollow noopener">
+							<svg width="30" height="30">
+								<use xlink:href="img/sprite.svg#sprite--youtube"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-menu flexbox">
+				<div class="footer-list">
+					<button type="button" aria-expanded="false" class="heading">Послуги</button>
+					<ul class="menu-list">
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Товари для дому</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Комунікації</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Дача</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Інтер’єр</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Ремонт</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Будівництво</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-list">
+					<button type="button" aria-expanded="false" class="heading">Основні категорії</button>
+					<ul class="menu-list">
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Дизайн інтер’єру</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Дизайн студії</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Дизайн інтер’єру</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Дизайн студії</a></li>
+						<li class="footer-menu__item"><a href="post.html" class="footer-menu-link">Дизайн інтер’єру</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-list">
+					<button type="button" aria-expanded="false" class="heading">Про нас</button>
+					<ul class="menu-list">
+						<li class="footer-menu__item"><a href="about.html" class="footer-menu-link">Про нас</a></li>
+						<li class="footer-menu__item"><a href="contact.html" class="footer-menu-link">Контакти</a></li>
+						<li class="footer-menu__item"><a href="tech.html" class="footer-menu-link">Політика приватності</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+		<div class="footer_bottom">
+			<div class="copy">©2023 Новий Дім. Всі права захищені</div>
+		</div>
+	</div>
+</footer>
+    <button type="button" class="btn_scroll">
+      <svg width="19" height="11">
+        <use xlink:href="img/sprite.svg#sprite--up"></use>
+      </svg>
+    </button>
+    <!-- popup -->
+    <div class="popup popup-subscr">
+	<button type="button" class="close"></button>
+	<div class="popup-subscr-body">
+		<form action="#" method="post" class="form-subscr">
+			<div class="heading">Підпишіться на щомісячні оновлення</div>
+			<div class="forminput">
+				<input type="text" name="name" placeholder="Ваше ім’я" required="">
+				<div class="icon icon-ok"></div>
+				<div class="icon icon-not"></div>
+			</div>
+			<div class="forminput">
+				<input type="email" name="email" placeholder="E-mail" required="">
+				<div class="icon icon-ok"></div>
+				<div class="icon icon-not"></div>
+			</div>
+			<button type="submit" class="btn btn_light">підписатися</button>
+		</form>
+	</div>
+
+	<div class="success">
+		<div class="success-heading">Дякуємо!</div>
+		<p>Ваша заявка успішно надіслана. <br/>Тепер ви зможете знаходити нові статті у вашій поштовій скринці.</p>
+	</div>
+</div>
+    <div class="popup popup-success">
+	<button type="button" class="close"></button>
+	<div class="success">
+		<div class="success-heading">Дякуємо!</div>
+		<p>Ваша заявка успішно надіслана. <br />Ми зв’яжемося з вами у найближчий час.</p>
+	</div>
+</div>
+
+    <!-- scripts -->
+	   <script src="js/libs.min.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>
